@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const JWT_SECRET = process.env.JWT_SECRET || 'tu_secreto_jwt';
+const JWT_SECRET = process.env.JWT_SECRET || 'app-control-gastos-genial';
 
 module.exports = function(req, res, next) {
     const token = req.header('x-auth-token');

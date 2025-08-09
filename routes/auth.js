@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'tu_secreto_jwt';
+const JWT_SECRET = process.env.JWT_SECRET || 'app-control-gastos-genial';
 
 // @route   POST /api/auth/register
 // @desc    Registrar un nuevo usuario
